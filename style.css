@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    /* max-width: 1440px;
+    width: 100%;
+    margin: 50px auto;  */
+    text-align: center;
+}
+
+i {
+    margin: 24px 35px;
+    font-size: 20px;
+    /* color: white; */
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#progress {
+    -webkit-appearance: none;
+    width: 40%;
+    height: 6px;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .2), hsla(0, 0%, 100%, .2)) 100% 50%/100% 3px no-repeat transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(226, 10, 10);
+    border-radius: 75%;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.images {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    object-position: top;
+}
+/* .images{
+    justify-content: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 175px;
+    margin-top: 20px;
+    animation: rotation 18s infinite linear;
+}
+@keyframes rotation {
+    to {
+      transform: rotate(360deg);
+    }
+} */
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color:black;
+    font-weight: b;
+}
+
+#volume {
+    -webkit-appearance: none;
+    width: 15%;
+    height: 6px;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .2), hsla(0, 0%, 100%, .2)) 100% 50%/100% 3px no-repeat transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 355px;
+    /* visibility: hidden; */
+}
+
+#volume {
+    position: relative;
+    bottom: 15px;
+}
+
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(204, 31, 8);
+    border-radius: 75%;
+}
+
+.card {
+    width: 530px;
+    height: 370px;
+    border: 1px rgb(236, 230, 230);
+    box-shadow: 0px 10px 25px 5px rgba(0, 0, 0, 0.20);
+    margin: 80px auto;
+    border-radius: 10px;
+    background: linear-gradient(rgba(19, 15, 15, 0.9), rgba(247, 7, 7, 0.6));
+}
+
+.display {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.playlist {
+    list-style: none;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    border: 1px solid rgba(26, 82, 202, 0.9);
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.recent{
+    opacity: 0;
+}
+.playlist:hover {
+    border: 1px solid rgba(255, 55, 245, 0.6);
+}
+
+a {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.fa-caret-down {
+    color: white;
+}
+
+.show {
+    /* visibility: visible;
+    z-index: 10; */
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+.listst {
+    position: absolute;
+    left: 7px;
+    top: -21px;
+}
+.songs{
+    position: absolute;
+    left: 57px;
+    top: -21px;
+    width: 195px;
+}
+.recent {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+h5 {
+    color: white;
+}
+.last{
+    color: white;
+    position: absolute;
+    right: 86px;
+    bottom: 389px;
+}
+.rece{
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    border: 1px solid rgba(26, 82, 202, 0.9);
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 240px;
+    text-align: left;
+}
+
+.head {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+
+.head>input {
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 200px;
+    position: relative;
+    left: 79px;
+    padding-left: 10px;
+}
+.my{
+    color: red;
+}
+.fa-music {
+    color: red;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.fa-sun {
+    margin-left: 150px;
+}
+
+.fa-moon {
+    margin-left: 150px;
+}
+
+.listst>.songs {
+    color: white;
+}
+
+.open {
+    opacity: 11;
+}
+
+/* .visi {
+    visibility: visible;
+} */

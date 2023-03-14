@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lokesh Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3db2e657fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="head">
+                <i class="fa-solid fa-music"></i>
+                <h3>My Music</h3>
+                <input type="search" placeholder="Search Your Songs" id="search">
+                <i class="fa-solid fa-sun"></i>
+                <a href="#" class="lists">PlayList</a>
+                <a href="#" class="rec">Recent Songs Played </a>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="listst">
+            <h3 class="songs">List Of Songs</h3>
+            <ul>
+            </ul>
+        </div>
+        <div class="card">
+            <h1>Love Hits</h1>
+            <marquee>
+                <p class="display"></p>
+            </marquee>
+            <img src="" alt="" class="images">
+            <span>00:00</span>
+            <input type="range" id="progress" value="0" min="0" max="" step="1">
+            <span class="dura">00:00</span>
+            <div class="controls">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-volume-up"></i>
+                <input type="range" id="volume" value="100" min="0" max="" step="1">
+                <audio src=""></audio>
+            </div>
+        </div>
+        <h3 class="last">Recent Songs</h3>
+        <div class="recent">
+            <ul></ul>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
